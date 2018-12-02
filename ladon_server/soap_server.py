@@ -58,7 +58,7 @@ class MySOAP11Interface(BaseInterface):
 
     @staticmethod
     def _interface_name():
-        # エンドポイントの一分となるため、既存とは異なる値へと変更
+        # 差し替えたエンドポイントを新規作成する必要があるため、既存とは異なる値へと変更
         return 'mysoap11'
 
     @staticmethod
